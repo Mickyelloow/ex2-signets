@@ -1,0 +1,48 @@
+.Dossier{
+    width: 25em;
+    height: 25em;
+    margin: 1em;
+    color: white;
+
+    .couverture{
+
+        img{
+            width: 100%;
+        }
+
+        .deplacer{
+            position: absolute;
+            width: 3em;
+            height: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            margin: 0.5em;
+
+            .deplacerIcon{
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    .info{
+        padding: 1em;
+        color: white;
+        h2, p{
+            margin: 0;
+        }
+    }
+
+    button{
+        color: white;
+
+        float: right;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        transform: translate(-20px, -10px) scale(2);
+    }
+}
